@@ -1,36 +1,12 @@
 # cljs-test
 
-FIXME: description
+A 'Hello, World!' project to see the set up for Clojure w/ ClojureScript.
 
-## Installation
+### Build
+`lein cljsbuild once`
 
-Download from http://example.com/FIXME.
+### Run
 
-## Usage
+`lein ring server-headless XXXX`
 
-FIXME: explanation
-
-    $ java -jar cljs-test-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
-
-## License
-
-Copyright © 2016 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Replace XXXX with a port number.
